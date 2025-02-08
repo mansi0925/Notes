@@ -1,0 +1,71 @@
+Git - Distributed version System
+
+Central VCS (SVN) -  
+
+Distributed VCS (GIT) - 
+
+Installation :
+- Go to 'git-scm.com'
+- Go to Download and find the suitable OS download option.
+- Rest of the steps are self explanatory.
+
+#### Check Version to see if git is installed correctly. 
+C:\Users\91954>git --version
+git version 2.37.3.windows.1
+
+Set Config Values Globally
+1. To set username
+$ git config --global user.name "abc"
+
+2. To set email
+$ git config --global user.email "abc@gmail.com"
+
+3. Get the list of attributes
+$ git config --list
+
+
+Manual page of any action (Help)
+$ git help config  or  $ git config help
+$ git help add
+
+##### Initialize a repository from existing code
+$ git init
+
+4. $ git status
+
+5. To ignore the files add a .gitignore file
+
+6. Add file tpo staging area
+$ git add .gitignore
+$ git add .    
+
+7. Commit files
+$ git commit -m "msg"
+
+8. $ git log
+
+##### Cloning a Remote Repo
+$ git clone url
+
+2. View details of remote repo
+$ git remote -v
+$ git branch -a    #list of all branches in repo
+
+3. Get the latest code
+$ git pull origin master
+
+4. Push the changes 
+git push origin master
+
+
+#### 1.Create a branch - $ git branch branchname
+
+2. See all branches
+$ git branch
+
+3. Use any other branch
+$ git checkout branchname
+
+
+
+Write a block using above info
